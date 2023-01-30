@@ -1,0 +1,32 @@
+% !TEX root = ../ClassicThesis.tex
+% !TEX spellcheck = en-US
+
+\chapter{Bildvorverarbeitung}
+\label{sec:preprocessing}
+
+\section{Womit hab ich gestartet?}
+- Was hab ich bekommen im detail
+- Vom wem
+- Wo lagen die Probleme
+\section{Was braucht ein guter Datensatz?}
+- im zusammenhang zu machine learning
+- Vielfältigkeit
+ -> Wie viele Klassen
+ -> Wie viele label / pro Klasse
+ -> Position der einzelnen label
+ - Bilder und Vergleiche, warum mein Datensatz zu gebrauchen ist
+
+\section{OpenCV}
+- was ist opencv und wozu kann man es brauchen bzw wozu brauch ich es
+- Bilder filtern via differenz wert 
+ -> diff wert brauchen wir ja später noch 
+ - mit diff wert auch richtigen bildernamenverweis speichern
+ - diff bilder segmentieren (?)
+  -> je nach hellugkeitswert
+  -> bilder heller machen oder nicht
+  -> bild in graustufe
+  -> bild mit gaussian blur 
+  -> hellste punkte finden -> diff wert 
+  -> contouren finden 
+  -> bestimmte größen abspeichern für label un ausschneiden
+  -> clustern 
